@@ -1,1 +1,78 @@
-.env 
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Log files
+*.log
+*.out
+*.err
+
+# Unit test results
+coverage.xml
+*.cover
+*.coverage
+*.cov
+*.lcov
+# Virtual environment directories
+venv/
+.env/
+.venv/
+
+# Conda environment
+*.conda
+conda-meta/
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+*.wheel
+*.manifest
+*.spec
+
+# Packaging files
+pip-log.txt
+pip-delete-this-directory.txt
+# IDE settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# MacOS files
+.DS_Store
+# Environment variables
+.env
+.env.*
+
+# Secrets
+*.key
+*.pem
+# Vector database indexes or embeddings
+*.hnsw
+*.index
+*.faiss
+*.ann
+
+# Cached datasets
+data/cache/
+*.jsonl
+*.pickle
+
+# Temporary files for RAG models
+*.tmp
+*.cache
+# Temporary or backup files
+*.bak
+*.swp
+*.tmp
+*~
+
+# Debugger and profiler output
+profile/
+*.prof
+# Langchain cache
+langchain_cache/
+ 

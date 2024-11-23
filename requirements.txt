@@ -1,1 +1,13 @@
-langchain
+langchain 
+anthropic 
+openai 
+pypdf 
+Pillow 
+faiss-cpu
+sentence-transformers 
+streamlit 
+opencv-python-headless 
+pytesseract 
+unstructured
+chromadb 
+python-dotenv
