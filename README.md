@@ -30,39 +30,45 @@ Supported libraries: numpy, pandas, langchain, sentence-transformers, faiss, str
 ### Installation Steps
 Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/your-repo/multimodal-rag.git
-cd multimodal-rag
+![Screenshot 2024-11-23 171141](https://github.com/user-attachments/assets/a374edcd-0915-4e5c-9d88-4dafb8e099e4)
+
+
+
 Install dependencies:
 
-bash
-Copy code
-pip install -r requirements.txt
+
+![Screenshot 2024-11-23 171242](https://github.com/user-attachments/assets/82e604b8-96c6-4296-b754-e4046207a6af)
+
+
 Install Tesseract OCR:
 
 Linux:
-bash
-Copy code
-sudo apt update
-sudo apt install tesseract-ocr
-Windows: Download and install Tesseract OCR from here.
+
+
+![Screenshot 2024-11-23 171338](https://github.com/user-attachments/assets/e4fc8eb7-af42-4514-a265-d904b38a5f25)
+
+
+Windows: Download and install Tesseract OCR from https://github.com/tesseract-ocr/tesseract.git
+
 Mac:
-bash
-Copy code
-brew install tesseract
+
+
+![Screenshot 2024-11-23 171512](https://github.com/user-attachments/assets/fba0f309-b1a4-40c8-99ca-21dbcfca0826)
+
+
 Set up .env file:
 
 Create a .env file in the root directory and add your API keys:
-env
-Copy code
-ANTHROPIC_API_KEY=your_anthropic_api_key
-OPENAI_API_KEY=your_openai_api_key
+
+
+![Screenshot 2024-11-23 171539](https://github.com/user-attachments/assets/00937d2e-86da-4c9f-9333-a444ec0d9bf9)
+
+
 Run the application:
 
-bash
-Copy code
-streamlit run MultiModal_RAG.py
+
+![Screenshot 2024-11-23 171636](https://github.com/user-attachments/assets/ba45e2d9-3b8d-4703-b8ca-3251ddfdff9c)
+
 
 ## Usage Instructions
 Document Upload:
