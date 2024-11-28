@@ -1,7 +1,7 @@
 # Multimodal RAG Assistant
 An advanced Multimodal Retrieval-Augmented Generation (RAG) system that integrates intelligent document processing, semantic search, and powerful language models for answering questions with contextual accuracy. This application supports multiple document formats and employs OCR to extract text from images, making it versatile for real-world use cases.
 
-## Features
+## Key Features
 Multimodal Document Processing:
 
 Supports PDF, text, Markdown, CSV, Excel, and image-based documents (e.g., PNG, JPG, JPEG).
@@ -96,6 +96,40 @@ Creates a RAG pipeline combining context retrieval, prompt formatting, and langu
 Streamlit UI:
 
 Offers an intuitive interface for file upload, question input, and result visualization.
+
+
+## Performance Comparision Details
+
+1.Accuracy:
+Measures how often the system provides the correct answer to a user's query.
+
+Traditional approaches often fail to understand the context, leading to inaccurate results.
+The Multimodal RAG leverages LLMs and vector-based search, ensuring higher accuracy.
+
+2.Relevance:
+Reflects the closeness of the retrieved information to the user’s query.
+
+Keyword-based methods depend on literal matches, which can overlook semantic meaning.
+Multimodal RAG excels in semantic understanding, providing better-aligned results.
+
+3.Response Time:
+Tracks the time taken to process and deliver an answer.
+
+Traditional systems are faster for simple queries but struggle with complex documents.
+Multimodal RAG is optimized for efficiency while maintaining high relevance and accuracy.
+
+## Line Graph Visualization:
+The graph below represents the performance metrics comparison:
+
+X-axis: Metrics (Accuracy, Relevance, Response Time).
+Y-axis: Performance in percentage.
+Two lines represent Traditional Search (red) and Multimodal RAG (blue).
+
+
+
+![Performance_Comparison_Traditional_vs_RAG](https://github.com/user-attachments/assets/cbdded64-90d2-4d67-9997-cd2fef670644)
+
+
 
 ## Key Libraries and Frameworks
 LangChain: Document processing, embeddings, and AI pipelines.
